@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-white antialiased;
+}
+
+a {
+  @apply text-primary-300 transition hover:text-primary-200;
+}
+
+.glass {
+  @apply rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl;
+}
